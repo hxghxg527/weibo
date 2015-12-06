@@ -62,10 +62,11 @@ a {
 
 .header-container .title {
     float: left;
-    font-size: 18px;
-    width: 140px;
+    font-size: 20px;
+    width: 150px;
     height: 48px;
     line-height: 48px;
+    font-style: italic;
 }
 
 .header-container .title:active {
@@ -184,14 +185,13 @@ a {
     max-width: 1000px;
     height: 100%;
     margin: auto;
-    //background: #ccc;
+    background: rgba(0, 0, 0, .5);
 }
 
 .content-container .content-container-left-menu {
-    background: rgba(0, 0, 0, .5);
     width: 150px;
     height: 100%;
-    height: 600px;
+    min-height: 600px;
     position: fixed;
     top: 50px;
     padding-top: 20px;
@@ -228,6 +228,67 @@ a {
     top: 50%;
     margin-top: -3px;
     border-radius: 50%;
+}
+
+.content-container .content-container-text-part {
+    width: auto;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 250px;
+    padding-top: 20px;
+}
+
+.content-container .content-container-text-part .publish-container {
+    height: 165px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.content-container .content-container-right-menu {
+    width: 230px;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding-top: 20px;
+}
+
+.content-container .content-container-right-menu .user-profile {
+    height: 165px;
+    background: #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-top-container {
+    height: 75px;
+    background: url("../images/profile_cover_s.jpg") no-repeat left top;
+    position: relative;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-top-container .user-profile-top-container-user-icon {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -32px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-top-container .user-profile-top-container-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container {
+    height: 90px;
 }
 
 .clearfix:before, .clearfix:after {
