@@ -291,6 +291,23 @@ a {
     height: 90px;
 }
 
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .user-name {
+    font-size: 14px;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .grade-icon {
+    font-size: 14px;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .user-name {
+    font-size: 14px;
+}
+
 .clearfix:before, .clearfix:after {
     content: "";
     display: table;
