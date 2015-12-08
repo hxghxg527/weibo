@@ -272,7 +272,7 @@ a {
     height: 64px;
     width: 64px;
     position: absolute;
-    bottom: -22px;
+    bottom: -18px;
     left: 50%;
     margin-left: -32px;
     background: rgba(255, 255, 255, .3);
@@ -289,23 +289,66 @@ a {
 
 .content-container .content-container-right-menu .user-profile .user-profile-bottom-container {
     height: 90px;
-}
-
-.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name {
-    margin-top: 30px;
+    padding-top: 20px;
     text-align: center;
 }
 
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name {
+
+}
+
 .content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .user-name {
     font-size: 14px;
+    line-height: 14px;
 }
 
 .content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .grade-icon {
-    font-size: 14px;
+    width: 16px;
+    height: 15px;
+    background: url("../images/icon-x2.png") no-repeat left top;
+    background-position: -25px -125px;
+    background-size: 625px 325px;
+    display: inline-block;
+    vertical-align: -3px;
+    margin: 0 2px;
 }
 
-.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .user-name {
-    font-size: 14px;
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-name .grade-number {
+    font-size: 11px;
+    line-height: 14px;
+    background-color: #ffb400;
+    height: 14px;
+    padding: 1px 6px;
+    border-radius: 14px;
+    color: #fff;
+    font-style: italic;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info {
+    margin: 8px 0 0;
+    display: inline-block;
+}
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a {
+    width: 65px;
+    float: left;
+    border-right: 1px solid #d9d9d9;
+}
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a:last-child {
+    border-color: transparent;
+}
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a:hover strong {
+    color: #f4712c;
+}
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a strong {
+    display: block;
+    color: #333;
+    font-size: 18px;
+}
+
+.content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a span {
+    display: block;
+    color: #808080;
+    font-size: 12px;
 }
 
 .clearfix:before, .clearfix:after {
