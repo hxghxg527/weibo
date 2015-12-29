@@ -343,6 +343,7 @@ a {
     display: block;
     color: #333;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .content-container .content-container-right-menu .user-profile .user-profile-bottom-container .user-profile-bottom-container-user-info a span {
